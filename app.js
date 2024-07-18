@@ -33,9 +33,9 @@ function verificarIntento() {
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
         if (numeroUsuario > numeroSecreto) {
-            asignarTaxtoElemento('p','En número secreto es menor');
+            asignarTaxtoElemento('p','El número secreto es menor');
         } else {
-            asignarTaxtoElemento('p','En número secreto es mayor');
+            asignarTaxtoElemento('p','El número secreto es mayor');
         }
         intentos++;
         limpiarCaja();
